@@ -1,16 +1,24 @@
 name: 04 - Uso de Actions
-on:
-    push:
+on: push
+ 
 jobs:
-    build:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Checkout Code
-              uses: actions/checkout@v4
-            - name: Node Setup
-              uses: actions/setup-node@v4
-              with:
-                  node-version: '24.x'
-            - name: Install Dependencies
-              working-directory: my-app
-              run: npm ci
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout Code"
+        uses: actions/checkout@v4
+ 
+      - name: "Node setup"
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24.x'  
+ 
+      - name: "Install dependencies"
+        working-directory: ./my-app
+        run: |
+          npm ci
+ 
+      - name: "Run tests"
+        working-directory: ./my-app
+        run: |
+          npm test

@@ -5,3 +5,4 @@ Ejercicios:
  - [Act. Types](./ejercicios/06-activityTypes.md)
 
 Modificación readme para el ejercicio 6
+Modificado de nuevo para probar la actualización

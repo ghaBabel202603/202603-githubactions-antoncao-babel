@@ -3,3 +3,5 @@ Ejercicios:
  - [Actions](./ejercicios/04-actions.md)
  - [event Filters](./ejercicios/05-eventFilters.md)
  - [Act. Types](./ejercicios/06-activityTypes.md)
+
+Actualización readme en otra rama para el ejercicio 5

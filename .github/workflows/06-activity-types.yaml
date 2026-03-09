@@ -1,11 +1,6 @@
 name: 06 - Activity Types
 on:
-  pull_request:
-    types:
-      - opened
-      - synchronize
-    branches:
-      - develop
+  workflow_dispatch:
 
 jobs:
   echo:

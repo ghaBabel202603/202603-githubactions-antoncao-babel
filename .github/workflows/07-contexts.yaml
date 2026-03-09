@@ -22,4 +22,5 @@ jobs:
           echo "Workflow: ${{ github.workflow }}"
 
       - name: "Retrieve Variable"
-        run: echo "MY_VAR: ${{ vars.MY_VAR }}"
+        run: |
+          echo "MY_VAR: ${{ vars.MY_VAR }}"

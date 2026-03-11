@@ -12,3 +12,4 @@ Ejercicios:
  - [Inputs](./ejercicios/12-Inputs.md)
  - [Outputs](./ejercicios/13-Outputs.md)
 
+update ejercicio 10

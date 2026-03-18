@@ -3,7 +3,7 @@ on:
     workflow_dispatch:
 jobs:
     deploy:
-        uses: ./.github/workflows/16-1-reusable-workflow.yaml
+        uses: antoncao-babel/repo-ejercicio16-2-workflows/.github/workflows/16-1-reusable-workflow.yaml@main
         with:
             target-directory: my-app
     print-outputs:

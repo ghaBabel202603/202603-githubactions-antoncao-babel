@@ -9,7 +9,7 @@ on:
                     - dev
                     - prod
 env:
-    working-directory: my-app
+    working-directory: 17-custom-actions/react-app
 jobs:
     build:
         runs-on: ubuntu-latest

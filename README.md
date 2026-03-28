@@ -25,3 +25,4 @@ Ejercicios:
  - [18 - Concurrency](./ejercicios/18-Concurrency.md)
 
 
+update ejercicio 10
